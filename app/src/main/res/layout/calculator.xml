@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffffff"
+    android:stretchColumns="*" >
+
+    <TextView
+        android:text="Các kiểu lập trình sự kiện"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:gravity="center" />
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tvSoA"
+            android:text="Số a:"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <EditText
+            android:id="@+id/edtSoA"
+            android:layout_span="3"
+            android:textColor="#000000" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tvSoB"
+            android:text="Số a:"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <EditText
+            android:id="@+id/edtSoB"
+            android:layout_span="3"
+            android:textColor="#000000" />
+
+    </TableRow>
+    <TextView
+        android:text=" "
+        android:id="@+id/tvKetqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:gravity="center" />
+    <Button
+        android:text="Tổng 2 số"
+        android:id="@+id/btnTong"
+        android:onClick="tinhTong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="Hiệu 2 số"
+        android:id="@+id/btnHieu"
+        android:onClick="tinhHieu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="Tích 2 số"
+        android:id="@+id/btnTich"
+        android:onClick="tinhTich"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="Thương 2 số"
+        android:id="@+id/btnThuong"
+        android:onClick="tinhThuong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="Ước số chung lớn nhất"
+        android:id="@+id/btnUoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="Thoát chương trình"
+        android:id="@+id/button"
+        android:onClick="exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:background="#f00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+
+</TableLayout>
